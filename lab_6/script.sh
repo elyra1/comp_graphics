@@ -1,0 +1,1 @@
+g++ main.cpp geometry.cpp object.cpp shapes.cpp renderer.cpp input.cpp -o main -std=c++17 -I/opt/homebrew/include -I/usr/local/include -L/opt/homebrew/lib -L/usr/local/lib -lsfml-graphics -lsfml-window -lsfml-system && ./main
